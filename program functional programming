@@ -1,0 +1,8 @@
+def luas_persegi(sisi):
+  print('luas persegi dengan sisi : ', sisi)
+  luas = sisi*sisi
+  print(sisi,'x',sisi,' = ', luas)
+
+luas_persegi(2) # 4
+luas_persegi(8) # 64
+luas_persegi(1.5) # 2.25
