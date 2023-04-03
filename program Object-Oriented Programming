@@ -1,0 +1,30 @@
+class Human:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def get_name(self):
+        return self.name
+
+    def get_age(self):
+        return self.age
+
+class manusia1(Human):
+    def __init__(self, name, age):
+        super().__init__(name, age)
+
+class manusia2(Human):
+    def __init__(self, name, age):
+        super().__init__(name, age)
+
+
+# Membuat objek manusia1 dan manusia2
+Manusia1 = manusia1("Rana", 18)
+Manusia2 = manusia2("Rani", 19)
+
+# Memanggil method pada objek
+print(Manusia1.get_name())  # output: Rana
+print(Manusia1.get_age())   # output: 18
+
+print(Manusia2.get_name())  # output: Rani
+print(Manusia2.get_age())   # output: 19
